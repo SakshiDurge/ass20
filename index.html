@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexboxes</title>
+    <style>
+        .cards-container{
+            display:flex;
+            background-color: bisque;
+            flex-direction:column-reverse;
+            width:200px;
+            height: 800px;
+        }
+        .card{
+            width: 150px;
+            border: 4px double black;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .card img{
+            width: 100%;
+            height: 100px;
+            border-radius: 7px 7px 0 0;
+            
+        }
+        .card-title{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="cards-container">
+
+    <div class="card">
+        <img src="./../isro/one.jpg" class="card-img"/>
+        <h2 class="card-title">One</h2>
+    </div>
+
+    <div class="card">
+        <img src="./../isro/two.jpg" class="card-img"/>
+        <h2 class="card-title">Two</h2>
+    </div>
+
+    <div class="card">
+        <img src="./../isro/three.jpg" class="card-img"/>
+        <h2 class="card-title">Three</h2>
+    </div>
+
+    <div class="card">
+        <img src="./../isro/four.jpg" class="card-img"/>
+        <h2 class="card-title">four</h2>
+    </div>
+    
+</body>
+</html>
